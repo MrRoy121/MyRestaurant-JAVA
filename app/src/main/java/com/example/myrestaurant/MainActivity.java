@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         findViewById(R.id.b1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -23,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
         findViewById(R.id.b2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
         findViewById(R.id.b3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
         findViewById(R.id.b4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
